@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eMSP.Utils", "eMSP.Utils\eM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eMSP.Web", "eMSP.Web\eMSP.Web.csproj", "{BB4AA89F-E947-4DA2-BBDF-33D0E1CD1A0B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{F8DB4EC5-CF37-4060-A8E2-1CA7A93088A3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\eMSP_20170802.sql = ..\..\..\eMSP_20170802.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
